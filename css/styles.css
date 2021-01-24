@@ -10063,6 +10063,7 @@ p.lead {
   border-radius: 100%;
   font-size: 1.5rem;
   margin-right: 1.5rem;
+  transition: background-color 200ms;
 }
 .social-icons .social-icon:last-child {
   margin-right: 0;
@@ -10118,5 +10119,11 @@ section.resume-section .resume-section-content {
 
   .languages-container a {
     margin-right: 16px;
+  }
+}
+
+@media (max-width: 570px) {
+  .text-perpetua {
+    display: block;
   }
 }
